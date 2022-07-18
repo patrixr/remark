@@ -1,0 +1,27 @@
+{
+  "name": "remark",
+  "version": "1.0.0",
+  "description": "A comment demonstration app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "keywords": [
+    "comment",
+    "demo",
+    "app",
+    "react",
+    "node"
+  ],
+  "author": "Patrick",
+  "license": "MIT",
+  "workspaces": [
+    "packages/remark-api"
+  ],
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
